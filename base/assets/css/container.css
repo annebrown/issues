@@ -1,0 +1,30 @@
+/*--------@@/base/assets/css/container.css------------------------------------->
+/******************************************************************************/
+/* Container
+/******************************************************************************/
+
+/* Max and smaller */
+.container { @apply p-10 w-[90%] max-w-[1200px] mx-auto; }
+
+/* Medium and smaller */
+@media (max-width: 1200px) { 
+    .container {
+      width: 95%; /* Take up slightly more space on smaller screens */
+      padding: 15px;
+    }
+}
+/* Tablet and smaller */
+  @media (max-width: 768px) { 
+    .container {
+      width: 95%; /* Take up slightly more space on smaller screens */
+      padding: 15px;
+    }
+}
+   /* Smartphone */
+  @media (max-width: 480px) {
+    .container {
+      width: 98%; /* Almost full screen on phones */
+      padding: 10px;
+    }
+}
+/*--------@@/base/assets/css/container.css------------------------------------->

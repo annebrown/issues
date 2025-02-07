@@ -1,0 +1,33 @@
+/*--------@@/base/assets/css/fleet-typography.css-----------------------------*/
+/******************************************************************************/
+/* Typography
+/******************************************************************************/
+/* Headings */
+h1, h2, h3, h4, h5, h6 { @apply my-3; }
+body > h1:first-child { @apply mt-0; } /* Remove mt from first h1 on page */
+
+h1, title { @apply text-3xl font-extrabold; }
+h2 { @apply text-2xl font-bold; }
+h3 { @apply text-lg font-bold; }
+h4 { @apply text-base font-bold; }
+
+/* Default */
+p  { @apply text-base; 
+    line-height: 1.2; 
+    margin-bottom: 1em; 
+  }
+
+/* Links */
+ul { 
+    list-style-type: none;
+}
+ul.gunnel { 
+    list-style-type: none !important;
+}
+li::before { @apply list-disc ; }
+
+li.gunnel { @apply list-none; }
+
+/* Structures */
+#bow, #transom { @apply text-xs;}
+/*--------@@/base/assets/css/fleet-typography.css-----------------------------*/
