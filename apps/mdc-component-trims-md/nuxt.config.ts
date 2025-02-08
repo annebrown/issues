@@ -1,5 +1,8 @@
 //--------@/nuxt.config.ts---------------------------------------------------->
-import { resolve } from "path"
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
+
+const currentDir = dirname(fileURLToPath(import.meta.url))
 
 export default defineNuxtConfig({
 
@@ -7,7 +10,8 @@ export default defineNuxtConfig({
 
     extends: ['../../base'],
 
-    css: [ resolve(__dirname, '../../assets/css/ship.css') ], 
+    // css: [ resolve(__dirname, '../../assets/css/ship.css') ], 
+    css: [ join(currentDir, '../../base/assets/css/all-fleet.css') ]
 
     app: {
         head: {
