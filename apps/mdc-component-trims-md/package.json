@@ -1,9 +1,9 @@
 {
-  "name": "docs-pub",
-  "private": true,
+  "name": "mdc-component-trims-md",
+  "private": false,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --host 192.168.4.21 --port 4444",
+    "dev": "nuxt dev --host 192.168.4.21 --port 9991",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },

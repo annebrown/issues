@@ -1,19 +1,22 @@
 //<--------@/nuxt.config.ts---------------------------------------------------->
-import { defineNuxtConfig } from 'nuxt/config'
-import { resolve } from "path" // Rqd for locally cloned CMS
+import { resolve } from "path"
 
 export default defineNuxtConfig({
 
     telemetry: false, // F Telemetry
 
     extends: ['../../base'],
+
     css: [ resolve(__dirname, 'app/assets/css/ship.css') ], 
+
     srcDir: 'app/',
+
     app: {
         head: {
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
         }
     },
+    
     tailwindcss: {
         configPath: '../../base/tailwind.config.ts',
     },

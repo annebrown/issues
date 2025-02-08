@@ -31,7 +31,7 @@
              mt-4 mr-4 mb-2 -ml-8 p-0 text-xs"/>
 
         <!-- Float -->
-        <div class="min-w-72 pt-3 px-8 mb-0 pb-0 text-justify">
+        <div class="pt-3 px-8 mb-0 pb-0 text-justify">
 
             <!-- Keep Together -->
             <div class="mb-8">
@@ -61,7 +61,7 @@
             <ContentDoc v-slot="{ doc }" class="min-w-full"> 
 
                 <!-- Cargo -->     
-                <div class=" min-w-full mt-0 p-0">
+                <div class=" mt-0 p-0">
                     <ContentRenderer :value="doc" class="w-full" />
                 </div><!-- Cargo-->
 

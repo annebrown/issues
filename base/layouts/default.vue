@@ -1,39 +1,12 @@
 <!----------------------------@/layouts/default.vue---------------------------->
-<script setup lang="ts">
-    import { computed } from 'vue'
-    import { useRoute } from 'vue-router'
-
-    const { toc } = useContent()
-    const route = useRoute()
-
-    const isIndexPage = computed(() => {
-        // Path doesn't ends with '/' or is not exactly '/'
-        return route.path !== '/' || !route.path.endsWith('/')
-    })
-
-    // Breadcrumbs
-    const breadcrumbLinks = computed(() => {
-        const links = [{ label: 'DOCS', to: '/' }];
-        const pathSegments = route.path.split('/').filter(Boolean);
-        
-        pathSegments.forEach((segment, index) => {
-            links.push({
-                label: segment.charAt(0).toUpperCase() + segment.slice(1),
-                to: '/' + pathSegments.slice(0, index + 1).join('/')
-            });
-        });
-        return links;
-    });
-</script>
-
 <!-- Layout (Single Root Element) -->
 <template><div>
     
     <!-- Midships -->
-    <div class="min-w-96 container relative mt-[2px] mx-auto p-0 pb-2">
+    <div  id="midships" class="relative 6 mt-0 mx-auto p-2 pb-2">
 
         <!-- Breadcrumb -->
-        <div class="float-right m-0 mr-0.2 p-0">  
+        <div class="float-right m-0 mr-1 p-0">  
             <UBreadcrumb 
                 :links="breadcrumbLinks" 
                 divider="/" 
@@ -47,18 +20,8 @@
             />
         </div><!-- Breadcrumb -->
 
-        <!-- StarGunnel -->
-        <div v-if="toc && toc.links && toc.links.length > 1">
-            <StarGunnel class="clear-both float-right gunnel 
-                h-fit w-fit mt-1 -mr-8 p-2 text-xs" />
-        </div><!-- StarGunnel --> 
-
-        <!-- PortGunnel -->
-        <PortGunnel class="float-left gunnel h-fit w-fit 
-             -mt-2 mr-4 mb-2 -ml-8 p-0 text-xs"/>
-
         <!-- Float -->
-        <div class="min-w-72 pt-3 px-8 mb-0 pb-0 text-justify">
+        <div class="pt-3 px-8 mb-0 pb-0 text-justify">
 
             <!-- Keep Together -->
             <div class="mb-8">
@@ -105,4 +68,35 @@
     </div><!-- Midships -->
 
 </div></template><!-- Layout (Single Root Element) -->
+
+<script setup lang="ts">
+    import { computed } from 'vue'
+    import { useRoute } from 'vue-router'
+
+    const { toc } = useContent()
+    const route = useRoute()
+
+    const isIndexPage = computed(() => {
+        // Path doesn't ends with '/' or is not exactly '/'
+        return route.path !== '/' || !route.path.endsWith('/')
+    })
+
+    // Breadcrumbs
+    const breadcrumbLinks = computed(() => {
+        const links = [{ label: 'HOME', to: '/' }];
+        const pathSegments = route.path.split('/').filter(Boolean);
+        
+        pathSegments.forEach((segment, index) => {
+            links.push({
+                label: segment.charAt(0).toUpperCase() + segment.slice(1),
+                to: '/' + pathSegments.slice(0, index + 1).join('/')
+            });
+        });
+        return links;
+    });
+</script>
+
+<style>
+#ship, #midships { @apply bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
+</style>
 <!----------------------------@/layouts/default.vue---------------------------->

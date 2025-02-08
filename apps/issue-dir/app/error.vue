@@ -9,11 +9,13 @@
     <ShipBow id="bow" class="!text-xs" />
 
     <!-- Midships -->
-    <div id="midships" class="relative w-full m-0 p-0 p-4">
+    <div id="midships" class="relative w-full m-0 p-4">
 
         <!-- Cargo -->
         <div id="cargo">
-            <h1 class="splash-title"><!-- Title -->
+
+            <!-- Title -->
+            <h1 class="splash-title">
                 Sorry, boss
             </h1> 
         
@@ -22,7 +24,7 @@
             </p>
 
             <!-- Error Code -->
-            <p>Error: : {{ error.statusCode }}</p>
+            <p class="text-amber-300">Error: : {{ error.statusCode }}</p>
 
             <!-- Go Back Button -->
             <p class="text-center pt-2 pb-8">

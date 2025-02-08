@@ -1,22 +1,24 @@
-//<--------@/nuxt.config.ts---------------------------------------------------->
-import { defineNuxtConfig } from 'nuxt/config'
-import { resolve } from "path" // Rqd for locally cloned CMS
+//--------@/nuxt.config.ts---------------------------------------------------->
+import { resolve } from "path"
 
 export default defineNuxtConfig({
 
     telemetry: false, // F Telemetry
 
     extends: ['../../base'],
-    css: [ resolve(__dirname, 'app/assets/css/ship.css') ], 
-    srcDir: 'app/',
+
+    css: [ resolve(__dirname, 'assets/css/ship.css') ], 
+
     app: {
         head: {
             link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
         }
     },
+
     tailwindcss: {
         configPath: '../../base/tailwind.config.ts',
     },
+
 
     modules: [
         '@nuxt/ui',
@@ -34,7 +36,7 @@ export default defineNuxtConfig({
         // - unless XXserver launched w alias (XXservernocache)
         // - Faster DX for CMS client dev
         watch: process.env.DISABLE_CONTENT_WATCH === 'true' ? false : {
-            ws: { port: 4444, } // WebSocket server
+            ws: { port: 9991, } // WebSocket server
         },
 
         documentDriven: true,
@@ -56,33 +58,6 @@ export default defineNuxtConfig({
             ],
         }, // highlight
         
-        sources: {
-            github: { // GitHub Public Repo
-            prefix: '/docs-pub', // Route Prefix
-            driver: 'github',  
-            repo: "annebrown/content-base",
-            branch: "main",
-            dir: "content", 
-            },
-            localDocsPub: {
-                prefix: '/local-docs-pub', // Route Prefix
-                driver: 'fs',
-                base: resolve(__dirname, 
-                    '/home/anne/devy/prod/content-data/content-data/content'),
-            },
-            localDocsPriv: {
-                prefix: '/docs-priv', // Route Prefix
-                driver: 'fs',
-                base: resolve(__dirname, 
-                    '/home/anne/devy/proj/docs-priv/docs-priv/content'),
-            },
-            // backups: {
-            //     prefix: '/local-backups',
-            //     driver: 'fs',
-            //     base: resolve(__dirname, '~/prod/content-data/backups'),
-            // },
-
-        }, // sources
     }, // Content
 
     devtools: { enabled: true },
@@ -92,6 +67,7 @@ export default defineNuxtConfig({
         preference: 'dark',
     },
 
-    compatibilityDate: '2024-09-28',
-})
-//<--------@/nuxt.config.ts---------------------------------------------------->
+    compatibilityDate: '2025-02-07',
+
+  });
+  //--------@/nuxt.config.ts----------------------------------------------------->

@@ -1,6 +1,6 @@
 {
   "name": "issue-dir",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev --host 192.168.4.21 --port 9990",

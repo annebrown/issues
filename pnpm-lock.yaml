@@ -85,7 +85,7 @@ importers:
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@3.4.17)
 
-  apps/mdc-component-obliterates-md:
+  apps/mdc-component-trims-md:
     dependencies:
       '@iconify-json/ph':
         specifier: ^1.2.2
