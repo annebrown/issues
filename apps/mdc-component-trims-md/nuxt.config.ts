@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     extends: ['../../base'],
 
     // css: [ resolve(__dirname, '../../assets/css/ship.css') ], 
-    css: [ join(currentDir, '../../base/assets/css/all-fleet.css') ]
+    css: [ join(currentDir, '../../base/assets/css/all-fleet.css') ],
 
     app: {
         head: {
