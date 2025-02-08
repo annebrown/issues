@@ -1,4 +1,4 @@
-/*--------@@/base/assets/css/ship-colors.css----------------------------------*/
+/*--------@@assets/css/ship-colors.css----------------------------------------*/
 /******************************************************************************/
 /* Variables
 /******************************************************************************/
@@ -55,4 +55,4 @@ a:hover, a:active, a:focus { @apply text-current dark:text-current font-bold; }
 /******************************************************************************/
 svg { @apply stroke-[--primary-light] dark:stroke-[--primary-dark] stroke-2; }
 svg:hover, svg:active, svg:focus { @apply stroke-current dark:stroke-current stroke-2; } 
-/*--------@@/base/assets/css/ship-colors.css----------------------------------*/
+/*--------@@assets/css/ship-colors.css----------------------------------------*/

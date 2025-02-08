@@ -7,22 +7,23 @@
 
         <!-- Title -->
         <h1 class="w-full text-center text-[--primary-light] dark:text-[--primary-dark]">
-            Issues
+            Nuxt
         </h1>
     
         <!-- Description -->
-        <p class="w-full text-center mb-5">Bug Reproductions</p>
+        <p class="w-full text-center mb-5">Nuxt Bug Reproductions</p>
 
         <!-- List -->
         <ul class="w-full">
             <li class="w-full">
-                <NuxtLink to="/nuxt" class="w-full">
+                <NuxtLink external href="https://mdc-component-trims-md.annebrown.ca" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">Nuxt</h2>
+                        <h2 class="issue-title">mdc-component-trims-md</h2>
+                        <p class="issue-descr">Referencing a component in markdown results in the remaining markdown content not being rendered, including subsequent components.</p>
                     </div>
                 </NuxtLink>
             </li>
-            <!-- <li class="w-full">
+            <li class="w-full">
                 <NuxtLink to="/issues/2" class="w-full">
                     <div class="issue">
                         <h2 class="issue-title">Issue 2</h2>
@@ -37,7 +38,7 @@
                         <p>Issue 3 Description</p>
                     </div>
                 </NuxtLink>
-            </li> -->
+            </li>
         </ul>
 
     </div><!-- Center -->
@@ -45,17 +46,8 @@
 </NuxtLayout> 
 </div></template>
 
-<script lang="ts" setup>
-definePageMeta({
-    title: 'Issues',
-    description: 'Bug Reproduction List',
-})
-</script>
-
 <style scoped>
-.issue { @apply w-full p-2 
-    bg-[--body-bg-light] dark:bg-[--body-bg-dark] rounded-lg shadow-md
-    ring-1 ring-[--accent-light] dark:ring-[--accent-dark] ; }
+.issue { @apply w-full p-4 bg-[--primary-light] dark:bg-[--primary-dark] rounded-lg shadow-md; }
 .issue-title { @apply text-lg text-black dark:text-white ; }
 .issue-descr { @apply w-full p-4 text-white dark:text-black; }
 </style>
