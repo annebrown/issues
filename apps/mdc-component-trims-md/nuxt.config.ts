@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 
     extends: ['../../base'],
 
-    css: [ resolve(__dirname, 'assets/css/ship.css') ], 
+    css: [ resolve(__dirname, '../../assets/css/ship.css') ], 
 
     app: {
         head: {

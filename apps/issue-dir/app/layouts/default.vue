@@ -58,7 +58,7 @@
             </div><!-- Keep Together -->
             
             <!-- Cargo -->
-            <ContentDoc v-slot="{ doc }" class="min-w-full"> 
+            <ContentDoc v-slot="{ doc }" class="w-full"> 
 
                 <!-- Cargo -->     
                 <div class=" mt-0 p-0">
