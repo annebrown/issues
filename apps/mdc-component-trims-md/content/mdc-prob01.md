@@ -1,4 +1,10 @@
-# mdc-prob.md
+---
+title: mdc-prob01
+description: Problem Page
+navigation: false
+lastModified: 2025-02-08
+---
+
 
 ## Description
 

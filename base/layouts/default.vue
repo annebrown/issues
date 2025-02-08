@@ -37,6 +37,7 @@
                     <p class="w-full m-0 p-0 text-sm">
                         {{ doc.description }} 
                     </p>
+
                     <!-- Last Modification -->
                     <p v-if="!isIndexPage" class="w-full m-0 p-0 pb-5 text-sm
                         text-[--accent-light] dark:text-[--accent-dark]">
@@ -56,9 +57,6 @@
                 </div><!-- Cargo-->
 
             </ContentDoc><!-- Cargo -->
-
-            <!-- Child Route Cards-->
-            <RouteDynamicImmediateChildCards class="m-0 mt-8" />
 
         </div><!-- Float -->
 
@@ -95,8 +93,4 @@
         return links;
     });
 </script>
-
-<style>
-#ship, #midships { @apply bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
-</style>
 <!----------------------------@/layouts/default.vue---------------------------->

@@ -4,13 +4,15 @@
 /******************************************************************************/
 @layer base {
     :root {
-        --accent-light: #0ea5e9; /* sky-500 */ 
-        --accent-dark: #0ea5e9; /* sky-500 */ 
+        --accent-light: oklch(0.685 0.169 237.323);
+        --accent-dark:  oklch(0.685 0.169 237.323);
+        --accent-nuxt: oklch(0.871 0.15 154.449);
 
         --primary-light: #f97316; /* orange-500 */
-        --primary-dark: #f97316; /* orange-500 */
+        --primary-dark: oklch(0.871 0.15 154.449);
         --primary-dimmed-light: #431407; /* orange-950 */
-        --primary-dimmed-dark: #7c2d12; /* orange-900 */
+        --primary-dimmed-dark: #365314; /* lime-900 */
+
         --text-light: black; 
         --text-dark: #cbd5e1; /* gray-300 */ 
         --text-dimmed-light: #64748b; /* slate-500 */
@@ -22,7 +24,7 @@
         --midships-light: white;
         --midships-dark: #0f172a; /* gray-900 */
         --midships-ring-light: white;
-        --midships-ring-dark: #020617; /* gray-950 */
+        --midships-ring-dark: oklch(0.871 0.15 154.449);
 
         --debug-text-light: #f97316; /* orange-500 */
         --debug-text-dark: #f97316; /* orange-500 */
@@ -43,8 +45,8 @@ body { @apply bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
 p { @apply text-[--text-light] dark:text-[--text-dark]; }
 p#transom { @apply text-[--text-dimmed-light] dark:text-[--text-dimmed-dark]; }
 p.dimmed { @apply text-[--text-dimmed-light] dark:text-[--text-dimmed-dark]; }
-h1, title { @apply text-[--accent-light] dark:text-[--accent-dark]; }
-h2, h2, h4 { @apply text-[--primary-light] dark:text-[--primary-dark]; }
+h1, title { @apply text-[--accent-nuxt] dark:text-[--accent-nuxt]; }
+h2, h2, h4 { @apply text-[--accent-light] dark:text-[--accent-dark]; }
 /******************************************************************************/
 /* Text Links 
 /******************************************************************************/

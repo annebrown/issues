@@ -1,4 +1,4 @@
-<!----------------------------@/pages/[...slug].vue---------------------------->
+<!--------@/pages/[...slug].vue------------------------------------------------>
 <script lang="ts" setup>
     const route = useRoute()
 
@@ -16,4 +16,4 @@
             class="prose xs:prose-sm sm:prose-base md:prose-lg lg:prose-xl"/>
     </NuxtLayout>
 </template>
-<!----------------------------@/pages/[...slug].vue---------------------------->
+<!--------@/pages/[...slug].vue------------------------------------------------>

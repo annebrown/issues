@@ -3,7 +3,7 @@
     <!-- A11y -->
     <NuxtRouteAnnouncer />
 
-    <NuxtPage /> 
+    <NuxtPage class="m-2" /> 
 
 </div></template>
 <!--------@/app.vue------------------------------------------------------------>
