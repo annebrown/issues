@@ -17,10 +17,10 @@
         <ul class="w-full">
 
             <li class="w-full">
-                <NuxtLink external href="https://mdc-component-trims-md.annebrown.ca" class="w-full">
+                <NuxtLink external href="https://repro-template.annebrown.ca" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">First Issue</h2>
-                        <p class="issue-descr">Issue description text</p>
+                        <h2 class="issue-title">repro-template</h2>
+                        <p class="issue-descr">Issue Reproduction Template</p>
                     </div>
                 </NuxtLink>
             </li>
