@@ -133,8 +133,9 @@ const moveBugToRandomPosition = () => {
 
 <style scoped>
 .issue { @apply relative w-full p-2 pr-3
-    bg-[--midships-bg-light] dark:bg-gray-700 rounded-lg shadow-md
-    ring-1 ring-[--accent-light] dark:ring-[--accent-dark] ; }
+    bg-[--midships-bg-light] dark:bg-sky-950 rounded-lg shadow-md
+  ; }
+  /*   ring-1 ring-[--accent-light] dark:ring-[--accent-dark]  */
 .issue-title { @apply text-lg text-black dark:text-white ; }
 .issue-descr { @apply w-full p-4 text-white dark:text-black; }
 </style>
