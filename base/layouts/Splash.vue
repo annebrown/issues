@@ -3,7 +3,7 @@
 <template><div>
 
     <!-- Midships -->
-    <div id="midships" class="relative mt-0 mx-auto p-4 py-4 rounded-3xl">
+    <div id="midships" class="relative min-w-96 mt-0 mx-4 p-4 py-4 rounded-3xl">
     
         <!-- Title -->  
         <h1 class="mt-0 pt-4 px-4">

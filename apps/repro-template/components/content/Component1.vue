@@ -1,5 +1,5 @@
 <!--------@/components/content/Component1.vue---------------------------------->
 <template>
-  <p>Output from Component1</p>
+  <p>Sample component output</p>
 </template>
 <!--------@/components/content/Component1.vue---------------------------------->

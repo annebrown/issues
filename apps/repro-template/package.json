@@ -1,5 +1,5 @@
 {
-  "name": "mdc-component-trims-md",
+  "name": "repro-template",
   "private": false,
   "scripts": {
     "build": "nuxt build",

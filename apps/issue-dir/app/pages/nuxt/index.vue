@@ -18,23 +18,23 @@
             <li class="w-full">
                 <NuxtLink external href="https://mdc-component-trims-md.annebrown.ca" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">mdc-component-trims-md</h2>
-                        <p class="issue-descr">Referencing a component in markdown results in the remaining markdown content not being rendered, including subsequent components.</p>
+                        <h2 class="issue-title">First Issue</h2>
+                        <p class="issue-descr">Issue description text</p>
                     </div>
                 </NuxtLink>
             </li>
             <li class="w-full">
                 <NuxtLink to="/issues/2" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">Issue 2</h2>
-                        <p>Issue 2 Description</p>
+                        <h2 class="issue-title">Second Issue</h2>
+                        <p>Issue 2 Description blah blah blah</p>
                     </div>
                 </NuxtLink>
             </li>
             <li class="w-full">
                 <NuxtLink to="/issues/3" class="w-full">
                     <div class="issue">
-                        <h2 class="text-lg">Issue 3</h2>
+                        <h2 class="text-lg">Third Issue</h2>
                         <p>Issue 3 Description</p>
                     </div>
                 </NuxtLink>
