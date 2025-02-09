@@ -9,7 +9,7 @@
       <p class="m-0 p-0 pt-4">Issues</p>
 
 <!-- Logo -->
-<NuxtImg src="logo.svg" class="absolute top-[6.5rem] right-[1.2rem] w-[5rem] h-auto" />
+<NuxtImg src="logo.svg" class="absolute top-[5.45rem] right-[1.2rem] w-[5rem] h-auto" />
 
 <!-- Horiz Line -->
 <hr class="m-0 mt-1 p-0" />
