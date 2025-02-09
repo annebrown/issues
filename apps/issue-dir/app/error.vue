@@ -9,7 +9,7 @@
     <ShipBow id="bow" class="!text-xs" />
 
     <!-- Midships -->
-    <div id="midships" class="relative w-full m-0 p-4">
+    <div id="midships" class="relative w-full m-0 p-12">
 
         <!-- Cargo -->
         <div id="cargo">

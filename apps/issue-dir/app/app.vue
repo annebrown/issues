@@ -3,7 +3,7 @@
 <NuxtRouteAnnouncer /><!-- Assistive Technologies --> 
 
 <!-- Center Everything -->
-<div class="relative !min-w-96 max-w-fit h-fit mx-auto pt-0 pb-[2rem] pl-[3rem] pr-4">
+<div class="relative !min-w-96  h-fit mx-auto pt-0 pb-[2rem] pl-[3rem] pr-4">
 
      <!-- Ship -->
     <div id="main" class="w-fit pt-2">
