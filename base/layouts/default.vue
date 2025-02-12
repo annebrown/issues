@@ -1,9 +1,9 @@
-<!----------------------------@/layouts/default.vue---------------------------->
+<!--------@/layouts/default.vue------------------------------------------------>
 <!-- Layout (Single Root Element) -->
 <template><div>
     
     <!-- Midships -->
-    <div  id="midships" class="relative 6 mt-0 mx-auto p-2 pb-2">
+    <div  id="midships" class="relative   min-w-96 mt-0 mx-4 p-4 py-4 rounded-3xl">
 
         <!-- Breadcrumb -->
         <div class="float-right m-0 mr-1 p-0">  
@@ -32,7 +32,7 @@
                     <h1 id="title" class="title w-full mt-5 mb-0 pb-0">
                         <slot name="title">{{ doc.title }}</slot>
                     </h1>
-                    
+                  
                     <!-- Description -->
                     <p class="w-full m-0 p-0 text-sm">
                         {{ doc.description }} 
@@ -62,6 +62,9 @@
 
         <!-- Rqd for Midships Bg Color -->
         <p class="clear-both float-none">&nbsp;</p>
+
+        <!-- Go Back -->
+         <UiGoBack />
 
     </div><!-- Midships -->
 
@@ -93,4 +96,4 @@
         return links;
     });
 </script>
-<!----------------------------@/layouts/default.vue---------------------------->
+<!--------@/layouts/default.vue------------------------------------------------>

@@ -7,11 +7,11 @@
 
         <!-- Title -->
         <h1 class="w-full text-center text-[--primary-light] dark:text-[--primary-dark]">
-            Nuxt
+            Angular
         </h1>
     
         <!-- Description -->
-        <p class="w-full text-center">Nuxt Bug Reproductions</p>
+        <p class="w-full text-center">Angular Bug Reproductions</p>
 
         <!-- List -->
         <ul class="w-full">
@@ -26,10 +26,10 @@
             </li>
 
             <li class="w-full">
-                <NuxtLink external href="https://mdc-test.annebrown.ca" class="w-full">
+                <NuxtLink to="/issues/2" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">MDC Syntax</h2>
-                        <p class="issue-descr">Testing MDC Syntax Variations</p>
+                        <h2 class="issue-title">Second Issue</h2>
+                        <p class="issue-descr">Issue 2 Description blah blah blah</p>
                     </div>
                 </NuxtLink>
             </li>

@@ -13,6 +13,3 @@ Describe the issue in detail.
 ## Reproduce Problem
 
 Blah Blah Blah
-
-::UiGoBack
-::

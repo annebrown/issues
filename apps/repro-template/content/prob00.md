@@ -1,8 +1,7 @@
 ---
 title: prob00
 description: Sample Markdown Page
-navigation: false
-lastModified: 2025-02-08
+lastModified: 2025-02-12
 ---
 
 ## Description

@@ -3,6 +3,11 @@ import { resolve } from "path"
 
 export default defineNuxtConfig({
 
+    // Pages not completely rendering on load
+    experimental: {
+        navigationRepaint: true
+    },
+
     telemetry: false, // F Telemetry
 
     extends: ['../../base'],

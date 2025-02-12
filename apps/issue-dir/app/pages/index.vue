@@ -36,7 +36,7 @@
                 </NuxtLink>
             </li>
             <li class="w-full mx-auto">
-                <NuxtLink to="/nuxt">
+                <NuxtLink to="/next">
                     <div class="issue">
                         
                         <h2 class="issue-title">
@@ -53,11 +53,11 @@
                 </NuxtLink>
             </li>
             <li class="w-full mx-auto">
-                <NuxtLink to="/nuxt">
+                <NuxtLink to="/angular">
                     <div class="issue">
                         
                         <h2 class="issue-title">
-                            <NuxtImg src="brands/angular.png" alt="Nuxt Logo" 
+                            <NuxtImg src="brands/angular.png" alt="Angular Logo" 
                             width="28" height="28" 
                             style="
                                 display: inline-block; 

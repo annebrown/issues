@@ -11,7 +11,7 @@
 </script>
 
 <template><!-- No div - breaks route-->
-    <NuxtLayout name="default">
+    <NuxtLayout>
         <ContentRenderer :value="page" 
             class="prose xs:prose-sm sm:prose-base md:prose-lg lg:prose-xl"/>
     </NuxtLayout>

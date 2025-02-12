@@ -1,4 +1,14 @@
 /*--------@@/base/assets/css/ui.css-------------------------------------------*/
+/* Buttons */
+.go-back { @apply hover:bg-[--accent-light] dark:hover:bg-[--accent-dark] 
+    text-[--text-dark] dark:text-[--text-light]
+    bg-[--primary-light] dark:bg-[--primary-dark]
+    hover:text-white dark:hover:text-black
+    transition ease-in-out; 
+    border-radius: 0.5rem; padding: 0.5rem 1rem; 
+    cursor: pointer; 
+}
+
 /* Card Shadowed */
 .card-shadowed { @apply p-2
     bg-gray-200 dark:bg-transparent
