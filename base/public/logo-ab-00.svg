@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="530"
+   height="530"
+   viewBox="0 0 529.99996 529.99997"
+   sodipodi:docname="logo-ab-00.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#0ea5e9;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#0ea5e9;stop-opacity:0;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <rect
+       x="450.24652"
+       y="136.8022"
+       width="1242.0927"
+       height="297.67151"
+       id="rect8" />
+    <rect
+       x="483.6795"
+       y="121.16975"
+       width="735.15607"
+       height="313.95142"
+       id="rect7" />
+    <rect
+       x="501.96259"
+       y="226.38676"
+       width="783.96558"
+       height="258.8584"
+       id="rect6" />
+    <rect
+       x="861.60651"
+       y="163.02232"
+       width="405.78445"
+       height="397.83972"
+       id="rect5" />
+    <rect
+       x="471.82068"
+       y="240.06886"
+       width="242.01492"
+       height="169.37572"
+       id="rect4" />
+    <rect
+       x="450.24652"
+       y="136.8022"
+       width="1242.0927"
+       height="297.67151"
+       id="rect8-3" />
+    <rect
+       x="450.24652"
+       y="136.8022"
+       width="1242.0927"
+       height="297.67151"
+       id="rect8-5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="-32.759767"
+       y1="-1587.8726"
+       x2="91.189202"
+       y2="-1587.8726"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="861.60651"
+       y="163.02232"
+       width="405.78445"
+       height="397.83972"
+       id="rect5-6" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.86899936"
+     inkscape:cx="292.86558"
+     inkscape:cy="327.96342"
+     inkscape:window-width="1774"
+     inkscape:window-height="734"
+     inkscape:window-x="2"
+     inkscape:window-y="720"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     showgrid="false">
+    <sodipodi:guide
+       position="1276.0437,-1444.5075"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1385.8384,-1858.7654"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="803.627,-1407.417"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="capsule"
+     id="g1"
+     style="display:none;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+     transform="translate(324.0243,1918.5319)">
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="right-circle"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
+      <ellipse
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:31.0181;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse3"
+         cx="466.17526"
+         cy="-1662.3376"
+         rx="253.53563"
+         ry="249.3432" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="rect"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+       transform="matrix(0.9969821,0,0,1.0181632,59.027981,-1.9318806)">
+      <rect
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:14.7728;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3"
+         width="559.9046"
+         height="505.61514"
+         x="-172.74042"
+         y="-1883.5028" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer5"
+       inkscape:label="left-circle"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
+      <ellipse
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:31.0181;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         id="path3"
+         cx="-113.33942"
+         cy="-1660.9015"
+         rx="253.53563"
+         ry="249.3432" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="CIRCLE"
+     style="display:none;fill:#bef264;fill-opacity:1;stroke:#bef264;stroke-opacity:1"
+     transform="translate(324.0243,1918.5319)">
+    <ellipse
+       style="display:inline;fill:#a3e635;fill-opacity:1;stroke:#a3e635;stroke-width:30.0245;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="path3-4"
+       cx="-60.792641"
+       cy="-1652.146"
+       rx="245.41388"
+       ry="241.35576" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Blue Sail and Boat"
+     style="display:inline"
+     transform="translate(-60.957103,2057.1747)">
+    <path
+       id="path4"
+       style="font-variation-settings:'wght' 700;display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0369a1;stroke-width:1.13098;stroke-opacity:1"
+       inkscape:transform-center-x="-5.3293609"
+       inkscape:transform-center-y="2.5073435"
+       d="m 355.63182,-1540.1857 -170.04813,-2.4049 -16.09066,-54.3156 -53.15859,-4.6441 126.2311,-338.6586 c 32.33544,115.7936 67.20314,195.7381 16.64952,341.6714 l 144.99287,7.1979 z"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       transform="translate(349.22055,-135.67028)"
+       id="text4"
+       style="font-size:165.999px;font-family:'Anton SC';-inkscape-font-specification:'Anton SC, @wght=700';font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#1d4ed8;fill-opacity:1;stroke:#a4b888;stroke-width:1.319;stroke-opacity:1"><tspan
+         x="471.82031"
+         y="559.90377"
+         id="tspan2"><tspan
+           dx="0 79.433113"
+           id="tspan1">BD</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Green Sail"
+     style="display:inline;stroke:#0369a1;stroke-opacity:1;fill:#bef264;fill-opacity:1"
+     inkscape:highlight-color="#71f445"
+     transform="translate(288.26345,1921.5044)">
+    <path
+       id="path2"
+       style="font-variation-settings:'wght' 700;fill:#bef264;fill-opacity:1;stroke:#0ea5e9;stroke-width:8.11423;stroke-dasharray:none;stroke-opacity:1"
+       d="m 154.37195,-1456.5334 -264.27156,7.5382 c 92.570393,-140.9785 42.390683,-315.8649 3.47742,-457.7228 207.24042,155.4421 308.4058,202.6469 260.79414,450.1846 z"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="Text - browndomain.com"
+     style="display:none;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-opacity:1"
+     transform="translate(288.26345,1921.5044)">
+    <text
+       xml:space="preserve"
+       id="text6"
+       style="font-size:165.999px;font-family:'Anton SC';-inkscape-font-specification:'Anton SC, @wght=700';font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="501.96289"
+         y="635.70455"
+         id="tspan4"><tspan
+           dx="0 79.433113 79.108894 80.72998 118.17702 82.675262 81.864746 80.72998 123.85083 80.567871 37.609131 82.675293 37.93335 78.703613 80.72998"
+           id="tspan3">browndomain.com</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text8"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:109.333px;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed, Italic Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-284.00793,-1980.2506)"><tspan
+         x="450.24609"
+         y="235.7491"
+         id="tspan5">BROWN</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text8-6"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:109.333px;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed, Italic Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8-3);display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-230.08309,-1847.8067)"><tspan
+         x="450.24609"
+         y="235.7491"
+         id="tspan6">DOMAIN</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text8-65"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:109.333px;font-family:'IBM Plex Sans Condensed';-inkscape-font-specification:'IBM Plex Sans Condensed, Italic Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect8-5);display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(-263.60308,-1712.2239)"><tspan
+         x="450.24609"
+         y="235.7491"
+         id="tspan7">.COM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="Texp - BD"
+     style="display:none;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-opacity:1"
+     transform="translate(288.26345,1921.5044)">
+    <text
+       xml:space="preserve"
+       id="text5"
+       style="font-size:165.999px;font-family:'Anton SC';-inkscape-font-specification:'Anton SC, @wght=700';font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#0369a1;fill-opacity:1;stroke:#0369a1;stroke-width:1.31965;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.78285033,0,0,0.73582187,-686.32184,-1743.616)"><tspan
+         x="861.60742"
+         y="313.47995"
+         id="tspan9"><tspan
+           style="fill:#0284c7"
+           id="tspan8">BD</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text7"
+       style="font-size:165.999px;font-family:'Anton SC';-inkscape-font-specification:'Anton SC, @wght=700';font-variation-settings:'wght' 700;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="483.67969"
+         y="585.57955"
+         id="tspan11"><tspan
+           dx="0 79.433113 79.108894 80.72998 118.17702 82.675262 81.864746 80.72998 123.85083 80.567871 37.609131 82.675293 37.93335 78.703613 80.72998 123.85083"
+           id="tspan10">browndomain.com
+</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Texp - AB">
+    <text
+       xml:space="preserve"
+       id="text5-1"
+       style="font-style:oblique;font-variant:normal;font-weight:600;font-stretch:normal;font-size:252.974px;font-family:'Latin Modern Sans Demi Cond';-inkscape-font-specification:'Latin Modern Sans Demi Cond, Semi-Bold Oblique';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect5-6);display:inline;fill:#0369a1;fill-opacity:1;stroke:#0369a1;stroke-width:1.31965;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0.6274687,-0.04460944,0.0419296,0.58977454,-338.58062,257.2106)"><tspan
+         x="861.60742"
+         y="405.37058"
+         id="tspan12">AB</tspan></text>
+  </g>
+</svg>

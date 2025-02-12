@@ -27,6 +27,7 @@ export default defineNuxtConfig({
     },
 
     modules: [
+        '@vueuse/nuxt',
         '@nuxt/ui',
         '@nuxt/content', 
         '@nuxtjs/tailwindcss', 

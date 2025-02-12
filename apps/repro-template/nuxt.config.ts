@@ -71,6 +71,15 @@ export default defineNuxtConfig({
         preference: 'dark',
     },
 
+    googleFonts: {
+        download: true,
+        families: {
+            Roboto: true,
+            'Lavishly Yours': true,
+        }
+    },
+
+
     compatibilityDate: '2025-02-07',
 
   });

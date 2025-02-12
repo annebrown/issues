@@ -1,4 +1,4 @@
-<!----------------------------@/layouts/default.vue---------------------------->
+<!--------@/layouts/default.vue------------------------------------------------>
 <!-- Layout (Single Root Element) -->
 <template><div>
     
@@ -109,4 +109,4 @@
 <style>
 #ship, #midships { @apply bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
 </style>
-<!----------------------------@/layouts/default.vue---------------------------->
+<!--------@/layouts/default.vue------------------------------------------------>

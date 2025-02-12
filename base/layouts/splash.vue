@@ -2,11 +2,14 @@
 <!-- Layout (Single Root Element) -->
 <template><div>
 
+    <!-- Bow -->  
+    <ShipBow class="z-50 mb-2 mx-4" />
+
     <!-- Midships -->
-    <div id="midships" class="relative min-w-96 mt-0 mx-4 p-4 py-4 rounded-3xl">
+    <div id="midships" class="z-10 relative min-w-96 mt-0 mx-4 p-4 py-4 rounded-3xl">
     
         <!-- Breadcrumb -->
-        <div class="float-right m-0 mr-1 p-0">  
+        <div class="float-right mr-1">  
             <UBreadcrumb 
                 :links="breadcrumbLinks" 
                 divider="/" 
@@ -21,7 +24,7 @@
         </div><!-- Breadcrumb -->
 
         <!-- Title -->  
-        <h1 class="mt-0 pt-4 px-4">
+        <h1 class="m-0 p-0 px-4">
             <slot name="title"/>
         </h1>
         
@@ -29,9 +32,42 @@
         <slot><!-- Cargo --></slot>
     
         <!-- Go Back -->
-        <UiGoBack />
+        <UiGoBack class="p-4"/>
 
     </div><!-- Midships -->
     
 </div></template><!-- Layout (Single Root Element) -->
+
+<script setup lang="ts">
+
+import { ref, onMounted } from 'vue';
+
+const pageHeadings = ref([]);
+
+onMounted(() => {
+  const headings = document.querySelectorAll('h2, h3, h4'); 
+  pageHeadings.value = Array.from(headings).map((heading) => ({
+    id: heading.id,
+    text: heading.textContent.trim(),
+  }));
+});
+
+
+// Breadcrumbs
+const route = useRoute()
+const breadcrumbLinks = computed(() => {
+    const links = [{ label: 'Home', to: '/' }];
+    const pathSegments = route.path.split('/').filter(Boolean);
+
+    pathSegments.forEach((segment, index) => {
+        links.push({
+            label: segment.charAt(0).toUpperCase() + segment.slice(1),
+            to: '/' + pathSegments.slice(0, index + 1).join('/')
+        });
+    });
+
+    return links;
+});// Breadcrumbs
+
+</script>
 <!--------@/layouts/Splash.vue------------------------------------------------->

@@ -2,7 +2,7 @@
 <template><div>
 
 <NuxtImg    
-    src='logo.svg' 
+    src='logo-ab-00.svg' 
     width='40'
     height='40'
     alt='Logo - Ladybug' 

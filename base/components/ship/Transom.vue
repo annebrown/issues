@@ -6,7 +6,7 @@
 <!-- Copyright -->
 <span id="copy" class="-mt-1 p-0">
     Copyright 
-    <NuxtLink href="/docs/tech/tools/pinia" 
+    <NuxtLink href="https://www.annebrown.ca" 
         class="
             text-[--text-dimmed-light] 
             dark:text-[--text-dimmed-dark]
