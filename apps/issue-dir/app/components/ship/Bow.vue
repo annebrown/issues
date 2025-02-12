@@ -5,7 +5,7 @@
 <div class="z-50 relative container flex w-full">
 
     <!-- Logo and Domain Name -->
-    <div class="ml-3">
+    <div class="ml-4">
         
         <!-- Logo -->
         <NuxtLink href='/'>
@@ -22,7 +22,7 @@
         </NuxtLink>
 
         <!-- Domain Name -->  
-        <div class='z-10 inline-block m-0 p-0 pt-[0.75rem] pl-10 pr-2 pb-1 align-top
+        <div class='z-10 inline-block m-0 p-0 pt-[0.75rem] pr-2 pb-1 align-top
             rounded-lg bg-[--body-bg-light] dark:bg-[--body-bg-dark] 
             text-[--accent-light] dark:text-[--accent-dark]'
         >
@@ -42,7 +42,7 @@
     <div class="grow">&nbsp;</div>
 
     <!-- App Menu -->
-    <div class="absolute top-1 right-3">
+    <div class="absolute top-0 right-3">
         <ShipMenu id="main-menu" class="px-3 py-1 align-top" />
     </div>
 
@@ -70,9 +70,20 @@
 </script>
 
 <style scoped>
-.bug-icon {
-    position: fixed;
-    transition: transform 0.3s ease;
+.smooth-rotating-svg {
+  animation: smoothRotate 4s ease-in-out infinite;
+
+}
+
+@keyframes smoothRotate {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-15deg); }
+}
+
+.smooth-rotating-svg {
+  animation: smoothRotate 30s ease-in-out infinite;
 }
 </style>
 <!--------@/components/ship/Bow.vue-------------------------------------------->

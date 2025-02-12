@@ -3,7 +3,10 @@
 <NuxtLayout name="splash">
 
     <!-- Center -->
-    <div class="mx-auto">
+    <div @mousemove="moveBug" class="relative" ref="containerRef">
+    <!-- <div @mousemove="moveBug" class="relative mx-auto min-w-96"> -->
+        <img ref="bugRef" src="/logo.svg" alt="Bug" class="absolute" :style="bugStyle" />
+        <!-- <img ref="bugRef" src="/logo.svg" alt="Bug" :style="bugStyle" class="z-50" /> -->
 
         <!-- Title -->
         <h1 class="w-full text-center text-[--primary-light] dark:text-[--primary-dark]">
@@ -81,7 +84,51 @@ definePageMeta({
     description: 'Bug Reproduction List',
 })
 
+import { ref, onMounted, computed } from 'vue'
+import gsap from 'gsap'
 
+const containerRef = ref(null)
+const bugRef = ref(null)
+const bugSize = { width: 30, height: 30 } // Adjust this to match your bug's actual size
+const bugPosition = ref({ x: 0, y: 0 })
+
+const bugStyle = computed(() => ({
+  width: `${bugSize.width}px`,
+  height: `${bugSize.height}px`,
+  left: `${bugPosition.value.x}px`,
+  top: `${bugPosition.value.y}px`
+}))
+
+onMounted(() => {
+  if (containerRef.value) {
+    moveBugToRandomPosition()
+    window.addEventListener('resize', moveBugToRandomPosition)
+  }
+})
+
+const moveBug = () => {
+  if (containerRef.value) {
+    moveBugToRandomPosition()
+  }
+}
+
+const moveBugToRandomPosition = () => {
+  if (!containerRef.value) return
+
+  const containerRect = containerRef.value.getBoundingClientRect()
+  const maxX = containerRect.width - bugSize.width
+  const maxY = containerRect.height - bugSize.height
+  
+  const randomX = Math.floor(Math.random() * maxX)
+  const randomY = Math.floor(Math.random() * maxY)
+
+  gsap.to(bugPosition.value, {
+    x: randomX,
+    y: randomY,
+    duration: 1,
+    ease: "power2.out"
+  })
+}
 </script>
 
 <style scoped>

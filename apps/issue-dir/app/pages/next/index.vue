@@ -19,8 +19,8 @@
             <li class="w-full">
                 <NuxtLink href="/undefined" class="w-full">
                     <div class="issue">
-                        <h2 class="issue-title">repro-template</h2>
-                        <p class="issue-descr">Issue Reproduction Template</p>
+                        <h2 class="issue-title">First Issue</h2>
+                        <p class="issue-descr">First Issue Description</p>
                     </div>
                 </NuxtLink>
             </li>
@@ -29,7 +29,7 @@
                 <NuxtLink to="/undefined" class="w-full">
                     <div class="issue">
                         <h2 class="issue-title">Second Issue</h2>
-                        <p class="issue-descr">Issue 2 Description blah blah blah</p>
+                        <p class="issue-descr">Issue 2 Description</p>
                     </div>
                 </NuxtLink>
             </li>
@@ -37,7 +37,7 @@
                 <NuxtLink to="/undefined" class="w-full">
                     <div class="issue">
                         <h2 class="issue-title">Third Issue</h2>
-                        <p class="issue-descr">Issue 3 Description</p>
+                        <p class="issue-descr">Issue 3 Description Text</p>
                     </div>
                 </NuxtLink>
             </li>

@@ -12,7 +12,7 @@
         <ShipBow id="bow" class="z-50 w-full m-0 p-0;" />
 
         <!-- Ship-->
-        <NuxtPage id="ship" class="w-full z-10 m-0 p-0 mx-auto" /> 
+        <NuxtPage id="ship" class="w-full z-10 m-0 -mt-4 p-0 mx-auto" /> 
         
         <!-- Transom -->
         <ShipTransom id="transom" class="w-full mx-auto p-0 pt-1 px-2 text-xs" />
