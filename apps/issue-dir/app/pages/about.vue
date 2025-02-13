@@ -21,13 +21,6 @@
         align-middle">
         Other Sites </NuxtLink>
 
-    <span class="inline-block m-0 -mt-[0.4rem] p-0 pb-1 align-top
-        text-xl"> | </span>
-
-    <NuxtLink href="/gunner/login" class="inline-block m-0 p-0 pt-[0.1rem] align-middle">
-         Login
-    </NuxtLink>
-
 </p><!-- Links -->
 
 </NuxtLayout>
