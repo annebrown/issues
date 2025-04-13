@@ -38,8 +38,8 @@
   }
   .md-pre {
     @apply inline-block w-fit mt-2 mb-4 p-2 py-0 px-4 text-xs
-        rounded-md bg-[--body-bg-light] dark:bg-[--body-bg-dark]
-        ring-1 ring-[--midships-light] dark:ring-gray-800;
-}
+        rounded-md bg-[--body-bg-light] dark:bg-gray-950
+        ring-1 ring-[--accent-light] dark:ring-[--body-bg-dark];
+    }
   </style>
 <!--------@@/base/components/content/ProsePre.vue------------------------------>

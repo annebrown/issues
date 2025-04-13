@@ -38,20 +38,20 @@
                         
                     <ContentDoc v-slot="{ doc }">
 
-                    <!-- Title -->
-                    <h1 id="title" class="title w-full mt-5 mb-0 pb-0">
-                        <slot name="title">{{ doc.title }}</slot>
-                    </h1>
-                    
-                    <!-- Description -->
-                    <p class="w-full m-0 p-0 text-sm">
-                        {{ doc.description }} 
-                    </p>
-                    <!-- Last Modification -->
-                    <p v-if="!isIndexPage" class="w-full m-0 p-0 pb-5 text-sm
-                        text-[--accent-light] dark:text-[--accent-dark]">
-                        {{ doc.lastModified }}
-                    </p>
+                        <!-- Title -->
+                        <h1 id="title" class="title w-full mt-5 mb-0 pb-0">
+                            <slot name="title">{{ doc.title }}</slot>
+                        </h1>
+                        
+                        <!-- Description -->
+                        <p class="w-full m-0 p-0 text-sm">
+                            {{ doc.description }} 
+                        </p>
+                        <!-- Last Modification -->
+                        <p v-if="!isIndexPage" class="w-full m-0 p-0 pb-5 text-sm
+                            text-[--accent-light] dark:text-[--accent-dark]">
+                            {{ doc.lastModified }}
+                        </p>
         
                 </ContentDoc>
 

@@ -83,7 +83,7 @@ export default defineNuxtConfig({
                 prefix: '/docs-priv', // Route Prefix
                 driver: 'fs',
                 base: resolve(__dirname, 
-                    '/home/anne/devy/proj/docs-priv/docs-priv/content'),
+                    '/home/anne/devy/prod/docs-priv/docs-priv/content'),
             },
             // backups: {
             //     prefix: '/local-backups',

@@ -17,7 +17,7 @@
 <!-- Links -->
 <p class="m-0 p-0 pb-5 text-sm">
 
-    <NuxtLink href="https://www.annebrown.ca/dash" class="inline-block m-0 p-0 pt-[0.1rem]
+    <NuxtLink href="https://www.annebrown.ca/meta/dash" class="inline-block m-0 p-0 pt-[0.1rem]
         align-middle">
         Other Sites </NuxtLink>
 
